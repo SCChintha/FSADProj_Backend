@@ -29,7 +29,7 @@ public class CallSession {
     @ManyToOne(optional = false)
     @JoinColumn(name = "caller_id")
     private User caller;
-
+//changed
     @ManyToOne(optional = false)
     @JoinColumn(name = "receiver_id")
     private User receiver;
