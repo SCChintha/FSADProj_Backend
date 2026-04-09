@@ -27,7 +27,7 @@ public class Prescription {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
+\\generatedvalue
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "doctor_id", nullable = false,
             foreignKey = @ForeignKey(name = "fk_prescription_doctor"))
@@ -42,7 +42,7 @@ public class Prescription {
     @JoinColumn(name = "appointment_id",
             foreignKey = @ForeignKey(name = "fk_prescription_appointment"))
     private Appointment appointment;
-
+\\appointment
     @Column(nullable = false)
     private LocalDate date;
 
