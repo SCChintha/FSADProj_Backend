@@ -37,11 +37,11 @@ public class DoctorProfileUpdateRequest {
 
     private String languagesSpoken; // comma-separated
     private String licenseNumber;
-    private LocalDate licenseExpiryDate;
+    private LocalDate licenseExpiryDate; 
     private String licenseStatus;
     private String degreeCertificateUrl;
     private String degreeDocumentDriveLink;
-    private DocumentViewType degreeDocumentViewType;
+    private DocumentViewType degreeDocumentViewType; //documentview
     private String licenseDocumentUrl;
     private String licenseDocumentDriveLink;
     private DocumentViewType licenseDocumentViewType;
